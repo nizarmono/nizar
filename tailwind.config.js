@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*.{html,js}"],
+  content: ["./**/*.{html,js}"],
   theme: {
     container : {
       center : true, 
@@ -8,8 +8,8 @@ module.exports = {
     },
     extend: {
       fontFamily : {
-        nizar : ['Inter'],
-        dmSans : ['DM+Sans']
+        inter : ['Inter','roboto'],
+        noto : ['Noto Serif JP']
       },
       screens : {
         '2xl' : '1320px',
